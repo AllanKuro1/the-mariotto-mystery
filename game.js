@@ -8,6 +8,7 @@ class TitleScene extends Phaser.Scene {
     }
 
     preload() {
+        this.load.setBaseURL("https://allankuro1.github.io/the-mariotto-mystery/");
         // Carregando assets
         this.load.image('titleScreen', 'assets/images/title_screen.png');
         this.load.audio('happyMusic', 'assets/audio/happy_music.mp3');
